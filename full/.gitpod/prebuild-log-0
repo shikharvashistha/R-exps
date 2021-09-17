@@ -1,0 +1,51 @@
+{
+cabal update
+stack build
+
+}; exit
+ls: cannot access '/home/gitpod/.bashrc.d/*': No such file or directory
+[01;32mgitpod[00m [01;34m/workspace/template-haskell[00m ((43ce2df...)) $ {
+> cabal update
+> stack build
+> 
+> }; exit
+Warning: The update command is a part of the legacy v1 style of cabal usage.
+
+Please switch to using either the new project style and the new-update command
+or the legacy v1-update alias as new-style projects will become the default in
+the next version of cabal-install. Please file a bug if you cannot replicate a
+working v1- use case with the new-style commands.
+
+For more information, see: https://wiki.haskell.org/Cabal/NewBuild
+
+Config file path source is default config file.
+Config file /home/gitpod/.cabal/config not found.
+Writing default configuration to /home/gitpod/.cabal/config
+Downloading the latest package list from hackage.haskell.org
+[0mPreparing to install GHC (tinfo6) to an isolated location.[0m
+[0mThis will not interfere with any system-level installation.[0m
+Preparing to download ghc-tinfo6-8.8.3 ...                                          ghc-tinfo6-8.8.3: download has begun                                    ghc-tinfo6-8.8.3:   65.31 MiB / 193.18 MiB ( 33.81%) downloaded...                                                                  ghc-tinfo6-8.8.3:  134.77 MiB / 193.18 MiB ( 69.76%) downloaded...                                                                  ghc-tinfo6-8.8.3:  193.18 MiB / 193.18 MiB (100.00%) downloaded...                                                                  [0mDownloaded ghc-tinfo6-8.8.3.[0m
+Unpacking GHC into /home/gitpod/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.3.temp/ ...                                                                                       Configuring GHC ...                   Installing GHC ...                  [0mInstalled GHC.[0m
+[1 of 2] Compiling Main             ( /home/gitpod/.stack/setup-exe-src/setup-mPHDZzAJ.hs, /home/gitpod/.stack/setup-exe-src/setup-mPHDZzAJ.o )
+[2 of 2] Compiling StackSetupShim   ( /home/gitpod/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /home/gitpod/.stack/setup-exe-src/setup-shim-mPHDZzAJ.o )
+Linking /home/gitpod/.stack/setup-exe-cache/x86_64-linux-tinfo6/tmp-Cabal-simple_mPHDZzAJ_3.0.1.0_ghc-8.8.3 ...
+[0mBuilding all executables for `GitpodTemplate' once. After a successful build of all of them, only specified executables will be rebuilt.[0m
+[0mGitpodTemplate> configure (lib + exe)[0m
+[0mConfiguring GitpodTemplate-0.0.0.0...[0m
+[0mGitpodTemplate> build (lib + exe)[0m
+[0mPreprocessing library for GitpodTemplate-0.0.0.0..[0m
+[0mBuilding library for GitpodTemplate-0.0.0.0..[0m
+[0m[1 of 1] Compiling GitpodTemplate[0m
+[0mPreprocessing executable 'GitpodTemplate' for GitpodTemplate-0.0.0.0..[0m
+[0mBuilding executable 'GitpodTemplate' for GitpodTemplate-0.0.0.0..[0m
+[0m[1 of 1] Compiling Main[0m
+[0mLinking .stack-work/dist/x86_64-linux-tinfo6/Cabal-3.0.1.0/build/GitpodTemplate/GitpodTemplate ...[0m
+[0mGitpodTemplate> copy/register[0m
+[0mInstalling library in /workspace/template-haskell/.stack-work/install/x86_64-linux-tinfo6/80e06ee4e5fe67761ddef778fec8fa38d86aba6f8865553297fb293227de460e/8.8.3/lib/x86_64-linux-ghc-8.8.3/GitpodTemplate-0.0.0.0-H1rzFxfTSjw6mzvXAfJ67J[0m
+[0mInstalling executable GitpodTemplate in /workspace/template-haskell/.stack-work/install/x86_64-linux-tinfo6/80e06ee4e5fe67761ddef778fec8fa38d86aba6f8865553297fb293227de460e/8.8.3/bin[0m
+[0mRegistering library for GitpodTemplate-0.0.0.0..[0m
+exit
+
+🤙 This task ran as a workspace prebuild
+🎉 Well done on saving 1 minute
+
